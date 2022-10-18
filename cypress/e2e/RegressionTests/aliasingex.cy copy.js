@@ -10,7 +10,6 @@ describe('Checkboxes', () => {
         .as('checkboxes')
         .check()
 
-        cy.log("All the check boxes checked")
         cy.get('@checkboxes').uncheck()
   
       cy.get('@checkboxes')

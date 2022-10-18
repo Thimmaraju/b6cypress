@@ -24,7 +24,7 @@ describe('Validate Orange HRM Login functionality', function() {
     cy.url().should('include',"/web/index.php/pim/viewEmployeeList" )
     //or
     cy.location().its('href').should('include',"/web/index.php/pim/viewEmployeeList" )
-    cy.location('pathname').should('eq', '/web/index.php/pim/viewEmployeeList')
+   
   })
 
   it('Validate timesheet page ', function () {
